@@ -1,0 +1,46 @@
+.discover-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.adventures-violet {
+    color: #8A53FF;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.discover-text {
+    font-family: 'ChangaOne';
+    font-size: 40px;
+
+}
+
+.location-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.location-cards img {
+    border-radius: 8px;
+    width: 270px;
+    height: 320px;
+}
+
+.location-cards p {
+    font-family: 'ChangaOne';
+    font-size: 24px;
+}
+
+.location-cards span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A53FF;
+}
