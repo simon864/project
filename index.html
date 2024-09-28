@@ -3,24 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web</title>
-    <link rel="stylesheet" href="./src/styles/style.css" />
-    <link rel="stylesheet" href="./src/styles/cardsAndForm.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link rel="stylesheet" href="src/styles/cardsAndForm.css" />
+    <link rel="stylesheet" href="src/styles/recentStorySection.css" />
   </head>
   <body>
     <header>
-      <img class="logo" src="./src/assets/images/logo.svg" alt="" />
+      <img class="logo" src="src/assets/images/logo.svg" alt="" />
       <div class="nav-container">
         <ul class="nav-bar">
-          <li><a href="#" class="home-link">Home</a></li>
-          <li><a href="#">Story</a></li>
+          <li><a href="index.html" class="home-link">Home</a></li>
+          <li><a href="story.html">Story</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
         <div class="icon-items">
-          <img src="./src/assets/images/seperator.svg" alt="" />
-          <img src="./src/assets/images/search_icon.svg" alt="" />
-          <img src="./src/assets/images/profile_icon.svg" alt="" />
+          <img src="src/assets/images/seperator.svg" alt="" />
+          <img src="src/assets/images/search_icon.svg" alt="" />
+          <img src="src/assets/images/profile_icon.svg" alt="" />
         </div>
       </div>
     </header>
@@ -37,7 +38,7 @@
         >
         <div class="buttons">
           <button>Share your story</button>
-          <img src="./src/assets/images/play.svg" alt="" />
+          <img src="src/assets/images/play.svg" alt="" />
           <span>Watch highlights</span>
         </div>
       </div>
@@ -45,20 +46,20 @@
 
     <div class="main-container2">
       <div class="image-mountains">
-        <img src="./src/assets/images/mountain.jpeg" alt="" />
+        <img src="src/assets/images/mountain.jpeg" alt="" />
       </div>
       <div class="main-text2">
         <div class="mountains-text">
           <p class="mountains-violet">FEATURED DESTINATION</p>
           <p class="mountains-black">Our swiss adventure blog</p>
-          <p>
+          <p class="text-description">
             Visiting the swiss alps? Want to know the requirements on <br />
             travelling to Switzerland during the pandemic? Our blog might <br />
             help!
           </p>
         </div>
         <div class="button-play-mountains">
-          <img src="./src/assets/images/play2.svg" alt="" />
+          <img src="src/assets/images/play2.svg" alt="" />
           <span>Watch now</span>
         </div>
       </div>
@@ -71,22 +72,22 @@
       </div>
       <div class="location-cards">
         <div class="iceland">
-          <img src="./src/assets/images/iceland.jpeg" alt="" />
+          <img src="src/assets/images/iceland.jpeg" alt="" />
           <p>Iceland</p>
           <span>Discover</span>
         </div>
         <div class="italy">
-          <img src="./src/assets/images/italy.jpeg" alt="" />
+          <img src="src/assets/images/italy.jpeg" alt="" />
           <p>Italy</p>
           <span>Discover</span>
         </div>
         <div class="dubai">
-          <img src="./src/assets/images/dubai.jpeg" alt="" />
+          <img src="src/assets/images/dubai.jpeg" alt="" />
           <p>Dubai</p>
           <span>Discover</span>
         </div>
         <div class="patagonia">
-          <img src="./src/assets/images/patagonia.jpeg" alt="" />
+          <img src="src/assets/images/patagonia.jpeg" alt="" />
           <p>Patagonia</p>
           <span>Discover</span>
         </div>
@@ -103,7 +104,6 @@
         <div class="form-container">
           <div class="form-text">
             <p>Share your travels</p>
-            <br />
             <span
               >Suggest a new travel destination that you want to see and we will
               <br />
@@ -114,12 +114,12 @@
           <div class="comletion-form">
             <input type="text" placeholder="Destination Name" />
             <select name="" id="">
-              <option value="">Country of Destinatio</option>
+              <option value="">Country of Destination</option>
               <option value="">Iceland</option>
               <option value="">Italy</option>
               <option value="">Dubai</option>
               <option value="">Patagonia</option>
-              <img src="./src/assets/images/arrow.svg" alt="" />
+              <img src="src/assets/images/arrow.svg" alt="" />
             </select>
             <input placeholder="Your name" type="text" />
             <select name="" id="">
@@ -127,7 +127,7 @@
               <option value="">Commercial</option>
               <option value="">Conditionally commercial</option>
               <option value="">Non-commercial</option>
-              <img src="./src/assets/images/arrow.svg" alt="" />
+              <img src="src/assets/images/arrow.svg" alt="" />
             </select>
             <textarea
               class="addition"
@@ -140,5 +140,81 @@
         </div>
       </div>
     </div>
+
+    <div class="story-titles">
+      <div class="titles">
+        <p>CATCH UP TO OUR POSTS</p>
+        <span>Recent story entries</span>
+      </div>
+    </div>
+    <div class="cards-container">
+      <div class="zermatt">
+        <img src="src/assets/images/zermatt.jpeg" alt="" />
+        <div class="text-zermatt">
+          <p>Zermatt, Switzerland</p>
+          <div class="text-play">
+            <span
+              >Marvel on the beauty of the iconic Matterhorn. Find the best
+              <br />
+              places to stay that has the best views of this peak...</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="cards-right">
+        <div class="tuscany">
+          <img src="src/assets/images/tuscany.jpeg" alt="" />
+          <div class="text-tuscany">
+            <p>Tuscany, Italy</p>
+            <span
+              >The amazing Tuscany is home to famous <br />
+              Renaissance art and architecture and a vast <br />
+              scenic landscape.
+              <span class="view-tuscany">view full blog...</span>
+            </span>
+          </div>
+        </div>
+        <div class="kyoto">
+          <img src="src/assets/images/kyoto.jpeg" alt="" />
+          <div class="text-kyoto">
+            <p>Kyoto, Japan</p>
+            <span
+              >Kyoto is well known for its temples, gardens, <br />
+              Shinto shrines and wooden houses. It’s time to <br />
+              visit tokyo.
+              <span class="view-kyoto">view full blog...</span></span
+            >
+          </div>
+        </div>
+        <div class="lofoten">
+          <img src="src/assets/images/lofoten.jpeg" alt="" />
+          <div class="text-lofoten">
+            <p>Lofoten Islands, Norway</p>
+            <span
+              >Featuring razor-sharp peaks housing the arctic <br />
+              landscape. This astonishing island is perfect for <br />
+              your next postcard.
+              <span class="view-lofoten">view full blog...</span></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_section">
+        <div class="rights_reserved">
+          <span>© 2022, Talking Travel. All Rights Reserved.</span>
+        </div>
+        <div class="list_container">
+          <ul class="footer_links">
+            <li class="footer_link"><a href="index.html">Home</a></li>
+            <li class="footer_link"><a href="#">Story</a></li>
+            <li class="footer_link"><a href="#">Gallery</a></li>
+            <li class="footer_link"><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

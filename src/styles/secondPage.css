@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #434343;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'ChangaOne';
+    src: url(../assets/fonts/ChangaOne-Regular.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2px;
+    padding-left: 120x;
+    padding-right: 120px;
+}
+
+.logo {
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+
+a {
+    font-family: 'Roboto';
+    font-weight: 550;
+    text-decoration: none;
+    color: #495367;
+}
+
+.icon-items {
+    cursor: pointer;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.story-link {
+    color: #8A53FF;
+}
+
+.nav-bar {
+    gap: 50px;
+}
+
+.icon {
+    padding-top: 20px;
+}
+
+.icon-items {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 20px;
+}
