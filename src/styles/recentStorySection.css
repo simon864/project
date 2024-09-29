@@ -131,35 +131,22 @@ footer {
 
 }
 
-.navigation {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-list {
-    display: flex;
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.footer_links {
+.footer-links {
     display: flex;
     align-items: center;
 }
 
-.footer_section {
+.footer-section {
     height: 80px;
     width: 100%;
     padding: 0 120px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer_links {
+.footer-links {
     gap: 40px;
     list-style: none;
     font-weight: 300;
@@ -167,7 +154,7 @@ a {
     color: #939EB4;
 }
 
-.footer_link>a {
+.footer-link>a {
     text-decoration: none;
     color: #939EB4;
 }
